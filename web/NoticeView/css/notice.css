@@ -1,0 +1,42 @@
+* {
+    background-color:#B0E0E6;
+}
+.main_container {
+    display: flex;
+    width : 1600px;
+    height: 950px;
+}
+.sidebar {
+    border: black solid 1px;
+    width : 250px;
+    height: auto;
+    background-color: #6495ED;
+}
+.content_container {
+    border: black solid 1px;
+    width: 1200px;
+    height: auto;
+    background-color: #87CEEB;
+}
+.content_container textarea {
+    margin-top: 20px;
+    height: 300px;
+}
+.user {
+    padding-top: 20px;
+    height: auto;
+
+}
+.user_icon {
+    width: 60%;
+    border: black solid 1px;
+    display: block;
+    margin: 20px auto auto;
+}
+.user_text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.side_button {
+    background-color: #6495ED;
+}

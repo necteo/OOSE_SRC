@@ -1,0 +1,118 @@
+.sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.center-name {
+    display: block;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 150px;
+    height: 150px;
+    margin: 1rem auto 0;
+    border-radius: 1rem;
+    background-color: #34495e;
+    text-align: center;
+}
+
+.profile__user-img {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #dfdfdf;
+}
+
+.profile__user-name {
+    font-size: 1.3rem;
+}
+
+.menu-container {
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.sales-menu-title {
+    font-size: 1.4rem;
+}
+
+.sales-menu-list {
+}
+
+.sales-menu-item {
+    padding-left: 1rem;
+    font-size: 1.1rem;
+}
+
+main {
+    margin-left: 300px;
+}
+
+.main-container {
+    padding: 30px 50px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales-container {
+    width: 400px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+}
+
+.menu-super-title {
+    font-size: 3rem;
+}
+
+.menu-sub-title {
+    font-size: 1.5rem;
+}
+
+.exit-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 0.5rem;
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.sales-list {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.sales-list thead {
+    border-top: 1px #979797 solid;
+    border-bottom: 1px #979797 solid;
+    background-color: #e4e4e4;
+    font-weight: bold;
+}
+.sales-list thead th {
+    padding: 0.5rem 0;
+}
+
+.sales-list tbody tr {
+    border-bottom: 1px solid #dfdfdf;
+}
+.sales-list tbody tr td {
+    padding: 0.5rem 0;
+}
+
+.sales-list tbody tr:hover {
+    background-color: #fafafa;
+}
